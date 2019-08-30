@@ -17,3 +17,9 @@ func WrapString(s string) *string {
 	wrap := s
 	return &wrap
 }
+
+//WrapFloat32 retorna um ponteiro a partir do primitivo
+func WrapFloat32(i float32) *float32 {
+	wrap := i
+	return &wrap
+}
