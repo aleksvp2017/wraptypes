@@ -18,6 +18,12 @@ func WrapInt32(i int32) *int32 {
 	return &wrap
 }
 
+//WrapInt64 retorna um ponteiro a partir do primitivo
+func WrapInt64(i int64) *int64 {
+	wrap := i
+	return &wrap
+}
+
 //WrapString retorna um ponteiro a partir do primitivo
 func WrapString(s string) *string {
 	wrap := s
