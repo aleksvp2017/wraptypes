@@ -6,6 +6,12 @@ func WrapBool(b bool) *bool {
 	return &wrap
 }
 
+//WrapInt retorna um ponteiro a partir do primitivo
+func WrapInt(i int) *int {
+	wrap := i
+	return &wrap
+}
+
 //WrapInt32 retorna um ponteiro a partir do primitivo
 func WrapInt32(i int32) *int32 {
 	wrap := i
